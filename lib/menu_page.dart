@@ -108,16 +108,21 @@ class Menu extends StatelessWidget {
            Padding(
             
              padding: const EdgeInsets.all(2.0),
-             child: Container( 
-              
-              
-               decoration: BoxDecoration(borderRadius: BorderRadius.circular(5),color: const Color.fromARGB(255, 203, 195, 195)),
-              height: 20,
-             width: 330,
-             child: const Center(child: Text('See more',style: TextStyle(color: Colors.black),
-             ),
-             ),
-               
+             child: GestureDetector(
+              onTap: (){
+                
+              },
+               child: Container( 
+                
+                
+                 decoration: BoxDecoration(borderRadius: BorderRadius.circular(5),color: const Color.fromARGB(255, 203, 195, 195)),
+                height: 20,
+               width: 330,
+               child: const Center(child: Text('See more',style: TextStyle(color: Colors.black),
+               ),
+               ),
+                 
+               ),
              ),
              
            ),
